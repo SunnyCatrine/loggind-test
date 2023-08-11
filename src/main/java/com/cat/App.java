@@ -15,5 +15,7 @@ public class App {
     public static void main( String[] args ) {
         logger.info("her sey iyi");
         System.out.println("Hello World!");
+        logger.trace("cok guzel");
+        logger.warn("dikkat ol");
     }
 }
