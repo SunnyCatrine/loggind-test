@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
  * Hello world!
  *
  */
+
 public class App {
 
     private static final Logger logger = LoggerFactory.getLogger(App.class);
