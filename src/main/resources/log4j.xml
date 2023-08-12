@@ -25,6 +25,11 @@
             <param name="LevelMin" value="warn"/>
         </filter>
     </appender>
+    
+    <logger name="com.cat">
+        <level value="info"/>
+        <appender-ref ref="file"/>
+    </logger>
 
     <root>
         <level value="info" />
