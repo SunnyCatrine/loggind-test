@@ -6,6 +6,6 @@ import java.util.logging.Logger;
 
 public class LogWithJavaUtil {
     @Getter
-    Logger logger = Logger.getLogger(LogWithJavaUtil.class.getName());
+    private Logger logger = Logger.getLogger(LogWithJavaUtil.class.getName());
 
 }
