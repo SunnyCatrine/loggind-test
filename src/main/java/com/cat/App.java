@@ -15,6 +15,9 @@ public class App {
         LogWithJavaUtil logWithJavaUtil = new LogWithJavaUtil();
         logWithJavaUtil.getLogger().info("kopek var");
 
+        LogWithSystemLogger logWithSystemLogger = new LogWithSystemLogger();
+        logWithSystemLogger.getLogger().log(System.Logger.Level.INFO, "Cuma gunu pazar var");
+
 //        log.info("her sey iyi");
 //        System.out.println("Hello World!");
 //        log.trace("cok guzel");
