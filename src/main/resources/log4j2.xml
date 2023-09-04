@@ -1,0 +1,12 @@
+<Configuration xmlns="http://logging.apache.org/log4j/2.0/config">
+    <Appenders>
+        <Console name="out" target="">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{1} -- %msg %n"></PatternLayout>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root>
+            <AppenderRef ref="out"></AppenderRef>
+        </Root>
+    </Loggers>
+</Configuration>
