@@ -1,13 +1,13 @@
 package com.cat;
 
 
-import lombok.extern.slf4j.Slf4j;
+//import lombok.extern.slf4j.Slf4j;
 
 /**
  * Hello world!
  *
  */
-@Slf4j
+//@Slf4j
 public class App {
 
     public static void main( String[] args ) {
@@ -21,8 +21,11 @@ public class App {
 //        LogWithLog4j2 logWithLog4j2 = new LogWithLog4j2();
 //        logWithLog4j2.getLogger().info("oretmenevi var ya");
 
-        LogWithLogback logWithLogback = new LogWithLogback();
-        logWithLogback.getLogger().info("Inaniyorum");
+//        LogWithLogback logWithLogback = new LogWithLogback();
+//        logWithLogback.getLogger().info("Inaniyorum");
+
+        LogWithJBossLogManager logWithJBossLogManager = new LogWithJBossLogManager();
+        logWithJBossLogManager.getLogger().info("kafayi mi yedin");
 
 //        log.info("her sey iyi");
 //        System.out.println("Hello World!");
