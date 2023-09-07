@@ -21,10 +21,17 @@
   <dependencies>
 
     <dependency>
-      <groupId>commons-logging</groupId>
-      <artifactId>commons-logging</artifactId>
-      <version>1.2</version>
+      <groupId>org.jboss.logging</groupId>
+      <artifactId>jboss-logging</artifactId>
+      <version>3.5.3.Final</version>
     </dependency>
+
+
+    <!--    <dependency>-->
+<!--      <groupId>commons-logging</groupId>-->
+<!--      <artifactId>commons-logging</artifactId>-->
+<!--      <version>1.2</version>-->
+<!--    </dependency>-->
 
 <!--    <dependency>-->
 <!--      <groupId>org.jboss.logmanager</groupId>-->
