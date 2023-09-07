@@ -24,8 +24,11 @@ public class App {
 //        LogWithLogback logWithLogback = new LogWithLogback();
 //        logWithLogback.getLogger().info("Inaniyorum");
 
-        LogWithJBossLogManager logWithJBossLogManager = new LogWithJBossLogManager();
-        logWithJBossLogManager.getLogger().info("kafayi mi yedin");
+//        LogWithJBossLogManager logWithJBossLogManager = new LogWithJBossLogManager();
+//        logWithJBossLogManager.getLogger().info("kafayi mi yedin");
+
+        LogWithCommonLoggingFasad logWithCommonLoggingFasad = new LogWithCommonLoggingFasad();
+        logWithCommonLoggingFasad.getLog().info("Yaprak kirilmis");
 
 //        log.info("her sey iyi");
 //        System.out.println("Hello World!");
