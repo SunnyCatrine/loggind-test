@@ -27,8 +27,11 @@ public class App {
 //        LogWithJBossLogManager logWithJBossLogManager = new LogWithJBossLogManager();
 //        logWithJBossLogManager.getLogger().info("kafayi mi yedin");
 
-        LogWithCommonLoggingFasad logWithCommonLoggingFasad = new LogWithCommonLoggingFasad();
-        logWithCommonLoggingFasad.getLog().info("Yaprak kirilmis");
+//        LogWithCommonLoggingFasad logWithCommonLoggingFasad = new LogWithCommonLoggingFasad();
+//        logWithCommonLoggingFasad.getLog().info("Yaprak kirilmis");
+
+        LogWithJBossLoggingFasad logWithJBossLoggingFasad = new LogWithJBossLoggingFasad();
+        logWithJBossLoggingFasad.getLogger().info("Yaylaya bir dolmus var");
 
 //        log.info("her sey iyi");
 //        System.out.println("Hello World!");
